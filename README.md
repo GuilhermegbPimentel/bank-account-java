@@ -15,6 +15,18 @@ Aplicação em Java para estudo de Programação Orientada a Objetos (POO), simu
 - Maven
 - Git e GitHub
 
+## Estrutura do Projeto
+
+O projeto está organizado seguindo boas práticas de separação de responsabilidades:
+
+- **domain**  
+  Regras de negócio e entidades do sistema (ex: Conta, Lançamentos).
+
+- **service**  
+  Casos de uso e lógica da aplicação (ex: depósito, saque, extrato).
+
+- **ui**  
+  Interface com o usuário via console (menu e entradas de dados).
 ## Objetivo do projeto
 Projeto desenvolvido com foco em:
 - Boas práticas de POO
